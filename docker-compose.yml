@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postgres_container
+    environment:
+      POSTGRES_DB: my_database
+      POSTGRES_USER: Nikita
+      POSTGRES_PASSWORD: 4TVYwq2Y3
+    ports:
+      - "5432:5432"
+
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: pgadmin_container
+    environment:
+      PGADMIN_DEFAULT_EMAIL: Nikita@2ib2.com
+      PGADMIN_DEFAULT_PASSWORD: 3YBew3U4
+    ports:
+      - "5050:80"
