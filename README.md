@@ -18,5 +18,6 @@ This Docker Compose configuration provides a quick and easy way to set up a Post
     ```bash
     docker-compose up -d
 4. Acces pgAdmin 
+
     Open your web browser and go to http://localhost:5050.
 5. Connect to PostgreSQL
